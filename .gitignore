@@ -1,0 +1,49 @@
+# ──── Build output ────────────────────────────────────────────
+target/
+
+# ──── IDE files ───────────────────────────────────────────────
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+nb-deployment/
+
+# ──── OS files ────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ──── Java / Maven ────────────────────────────────────────────
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+replay_pid*
+
+# ──── SQLite database (generated at runtime) ──────────────────
+*.db
+
+# ──── Serialized survey backups (generated at runtime) ────────
+survey_backups/
+
+# ──── Misc ────────────────────────────────────────────────────
+*.tmp
+*.swp
+*~
